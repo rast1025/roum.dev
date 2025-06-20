@@ -1,0 +1,72 @@
+baseURL: "roum.dev"
+languageCode: en-us
+title: roum.dev
+theme: PaperMod
+pluralizelisttitles: false
+buildDrafts: false
+enableEmoji: true
+
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    noClasses: false
+    style: monokai
+
+params:
+  author: Rinat Baiguzhinov
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: true
+  defaultTheme: dark
+  mainSections: projects
+  assets:
+    disableHLJS: true
+
+
+  homeInfoParams:
+    Title: Hello
+    Content: "
+            My name is Rinat Baiguzhinov, and I'm a web developer with over 9 years of experience building fast, scalable web applications using Go, based in Astana, Kazakhstan."
+    buttons:
+      - name: projects
+        url: /projects
+    AlignSocialIconsTo: right
+
+  socialIcons: 
+  - name: "Github"
+    title: My github projects
+    url: https://github.com/
+  - name: "LinkedIn"
+    title: My LinkedIn profile
+    url: https://linkedin.com
+  - name: "Telegram"
+    title: "Contact me here"
+    url: "https://t.me/rikstg"
+
+
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 5
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 10
+    - identifier: life
+      name: life
+      url: /life/
+      weight: 15
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
