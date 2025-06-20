@@ -6,6 +6,10 @@ pluralizelisttitles: false
 buildDrafts: false
 enableEmoji: true
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 
 markup:
   highlight:
@@ -30,7 +34,7 @@ params:
   homeInfoParams:
     Title: Hello
     Content: "
-            My name is Rinat Baiguzhinov, and I'm a web developer with over 9 years of experience building fast, scalable web applications using Go, based in Astana, Kazakhstan."
+            My name is Rinat, and I'm a web developer with over 9 years of experience building fast, scalable web applications using Go, based in Astana, Kazakhstan."
     buttons:
       - name: projects
         url: /projects
@@ -45,7 +49,7 @@ params:
     url: https://linkedin.com
   - name: "Telegram"
     title: "Contact me here"
-    url: "https://t.me/rikstg"
+    url: "https://t.me/
 
 
 menu:
