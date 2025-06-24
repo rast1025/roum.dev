@@ -3,7 +3,7 @@ date: '2025-06-24T14:08:18+05:00'
 draft: false
 title: 'Airport'
 cover:
-    image: /images/airport_cover.jpeg
+    image: images/airport_cover.jpeg
     responsiveImages: true
     alt: 'This is alt text'
     caption: 'My image'
